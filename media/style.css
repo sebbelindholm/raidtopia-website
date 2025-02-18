@@ -1,9 +1,9 @@
 :root {
     --nice-padding: 6rem;
     --roundness: 0.75rem;
-    --accent1: #02db02;
-    --accent2: #05b305;
-    --accent2_transp: #05b30555;
+    --accent1: #55FFFF;
+    --accent2: #00AAAA;
+    --accent2_transp: #00AAAA55;
     --background1: #212529;
     --background2: #16191b;
 
@@ -199,7 +199,8 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5) url('https://imgur.com/cGMLytH.png');
+    /*background: rgba(0, 0, 0, .5) url('https://imgur.com/cGMLytH.png');*/
+    background: rgba(0, 0, 0, .5) url("blur_bg.png");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -472,6 +473,7 @@ body {
     max-width: 45%;
     max-height: 100%;
     align-self: center;
+    padding: 1rem;
 }
 .main5_admins_description_div {
     display: flex;
